@@ -1,0 +1,59 @@
+@import './_settings';
+
+$foundation-palette: (
+  primary: $primary-color,
+  secondary: $secondary-color,
+  success: $success-color,
+  warning: $warning-color,
+  alert: $alert-color,
+);
+
+$body-font-family: 'Bitter', serif;
+$body-background: #ecf0f5;
+
+$topbar-background: #495063;
+$topbar-padding: 2rem;
+
+@import '../node_modules/foundation-sites/scss/foundation';
+@include foundation-everything($prototype: true);
+
+// Prevent FOUC when the page loads
+.no-js {
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;
+    }
+  }
+
+  @include breakpoint(medium) {
+    .title-bar {
+      display: none;
+    }
+  }
+}
+
+.top-bar-container {
+  background-color: $topbar-background;
+}
+
+.top-bar {
+  color: $white;
+
+  a {
+    color: $white;
+  }
+
+  .title-bar-title {
+    padding-left: 1rem;
+  }
+
+  .title-bar-title,
+  .menu-text {
+    font-size: 140%;
+  }
+
+  .menu-icon-button {
+    padding: 0.5rem;
+    margin: -0.5rem;
+  }
+}

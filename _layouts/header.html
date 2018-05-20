@@ -1,0 +1,35 @@
+<div class="top-bar" data-responsive-toggle="navigation-menu" data-hide-for="medium">
+  <div class="top-bar-left">
+    <button class="menu-icon-button" type="button" data-toggle>
+      <div class="menu-icon"></div>
+    </button>
+    <div class="title-bar-title">
+      <a href="/">{{ site.data.header.title }}</a>
+    </div>
+  </div>
+</div>
+
+<header class="top-bar-container fast" id="navigation-menu" data-animate="slide-in-down slide-out-up">
+  <div class="grid-container">
+    <div class="top-bar">
+      <div class="top-bar-left hide-for-small-only">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">
+            <a href="/">Mathieu Lagacé</a>
+          </li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="dropdown menu" data-dropdown-menu>
+          {% assign currentUrl = page.url | split: '.' %}
+          {% assign currentUrl = currentUrl[0] | append: '/' %}
+          {% for item in site.data.header.links %}
+            <li class="{% if item.url == currentUrl %}active{% endif %}">
+              <a href="{{ item.url }}">{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
