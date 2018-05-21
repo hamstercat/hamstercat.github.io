@@ -3,5 +3,77 @@ title: About me - Mathieu Lagacé
 ---
 
 <div class="grid-container page">
-  About me.
+  <div class="grid-x grid-margin-x">
+    <div class="cell medium-12 large-8">
+      <div class="card">
+        <div class="card-divider">
+          About me
+        </div>
+        <div class="card-section">
+          <p>I'm a <strong>Full Stack developer</strong> with a passion for new technology. I always keep up-to-date with the latest trends and best practices in order to improve my work. With my experience in back-end development, I deliver scalable, maintainable and well-tested APIs. Using my UI knowledge, I build innovative web and mobile applications that consume them.</p>
+          <p>I graduated from the University of Montreal with a B.S. degree in Computer Science in 2010, and have worked at <a href="/portfolio">various companies</a> since then.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-divider">
+          Technical skills
+        </div>
+        <div class="card-section">
+          <p>
+            <span>Front-end: </span>
+            {% for skill in site.data.about.skills.frontend %}
+              <span class="success label">{{ skill }}</span>
+            {% endfor %}
+          </p>
+          <p>
+            <span>Back-end: </span>
+            {% for skill in site.data.about.skills.backend %}
+              <span class="alert label">{{ skill }}</span>
+            {% endfor %}
+          </p>
+          <p>
+            <span>Devops: </span>
+            {% for skill in site.data.about.skills.devops %}
+              <span class="warning label">{{ skill }}</span>
+            {% endfor %}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="cell medium-12 large-4">
+      <div class="card">
+        <div class="card-divider">
+          Profile
+        </div>
+        <div class="card-section icons-list">
+          <p>
+            <a href="https://www.linkedin.com/in/mathieulagace/">
+              <span class="fab fa-linkedin"></span> LinkedIn profile
+            </a>
+          </p>
+          <p>
+            <a href="https://github.com/hamstercat">
+              <span class="fab fa-github"></span> GitHub account
+            </a>
+          </p>
+          <p>
+            <span class="fas fa-location-arrow"></span> Montréal, Canada
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-divider">
+          Work preference
+        </div>
+        <div class="card-section icons-list">
+          <p>
+            <span class="fas fa-globe"></span> Remote friendly
+          </p>
+          <p>
+            <span class="fas fa-bicycle"></span> Work/life balance
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

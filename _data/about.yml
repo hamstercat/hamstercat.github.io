@@ -1,0 +1,21 @@
+skills:
+  frontend:
+  - JavaScript/ES6
+  - TypeScript
+  - React
+  - React Native
+  - Angular
+  - Webpack
+  backend: 
+  - node.js
+  - express
+  - GraphQL
+  - C# .NET
+  - ASP.NET MVC
+  - SQL Server
+  - MongoDB
+  devops:
+  - Heroku
+  - Git
+  - Docker
+  - CI

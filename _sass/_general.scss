@@ -1,3 +1,17 @@
 .page {
   padding-top: 2rem;
 }
+
+.icons-list {
+  .fas,
+  .fab {
+    width: 20px;
+  }
+
+  a {
+    .fas,
+    .fab {
+      color: initial;
+    }
+  }
+}
