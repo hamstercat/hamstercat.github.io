@@ -24,21 +24,6 @@ $card-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 3px 0px;
 @import '../node_modules/foundation-sites/scss/foundation';
 @include foundation-everything($prototype: true);
 
-// Prevent FOUC when the page loads
-.no-js {
-  @include breakpoint(small only) {
-    .top-bar {
-      display: none;
-    }
-  }
-
-  @include breakpoint(medium) {
-    .title-bar {
-      display: none;
-    }
-  }
-}
-
 .top-bar-container {
   background-color: $topbar-background;
 }
@@ -66,6 +51,12 @@ $card-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 3px 0px;
 
   .menu li.active > a {
     border-radius: $global-radius;
+  }
+
+  @include breakpoint(medium down) {
+    .top-bar-right {
+      margin-left: 0;
+    }
   }
 }
 
