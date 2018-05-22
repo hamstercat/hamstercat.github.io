@@ -6,7 +6,7 @@ defaults:
       layout: "default"
 sass:
   load_paths:
-    - node_modules/foundation-sites/scss
+    - _sass/--foundation
     - _sass
 exclude:
   - README.md

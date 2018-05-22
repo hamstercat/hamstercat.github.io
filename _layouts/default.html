@@ -3,11 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="{{ '/assets/css/motion-ui.min.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/magnific-popup.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    {% include_relative _layouts/stylesheets.html %}
   </head>
   <body>
     {% include_relative _layouts/header.html %}

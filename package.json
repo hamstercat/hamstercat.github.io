@@ -4,7 +4,7 @@
   "repository": "https://github.com/hamstercat/hamstercat.github.io.git",
   "license": "MIT",
   "scripts": {
-    "postinstall": "bundle",
+    "postinstall": "node ./bin/postinstall.js",
     "serve": "bundle exec jekyll serve --livereload"
   },
   "dependencies": {
@@ -12,5 +12,8 @@
     "jquery": "^3.3.1",
     "magnific-popup": "^1.1.0",
     "motion-ui": "^1.2.3"
+  },
+  "devDependencies": {
+    "shelljs": "^0.8.2"
   }
 }

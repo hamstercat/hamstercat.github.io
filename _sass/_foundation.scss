@@ -21,7 +21,7 @@ $card-divider-background: $primary-color;
 $card-border: 1px solid $primary-color;
 $card-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 3px 0px;
 
-@import '../node_modules/foundation-sites/scss/foundation';
+@import './--foundation/scss/foundation';
 @include foundation-everything($prototype: true);
 
 .top-bar-container {
