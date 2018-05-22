@@ -1,7 +1,10 @@
 title: Mathieu Lagacé
 links:
-- title: About me
-  url: /about-me/
+  - title: About me
+    url: /about-me/
 
-- title: Portfolio
-  url: /portfolio/
+  - title: Work experience
+    url: /work-experience/
+
+  - title: Projects
+    url: /projects/

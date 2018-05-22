@@ -3,15 +3,16 @@ title: About me - Mathieu Lagacé
 ---
 
 <div class="grid-container page">
+  <h1>About me</h1>
   <div class="grid-x grid-margin-x">
     <div class="cell medium-12 large-8">
       <div class="card">
         <div class="card-divider">
-          About me
+          Summary
         </div>
         <div class="card-section">
           <p>I'm a <strong>Full Stack developer</strong> with a passion for new technology. I always keep up-to-date with the latest trends and best practices in order to improve my work. With my experience in back-end development, I deliver scalable, maintainable and well-tested APIs. Using my UI knowledge, I build innovative web and mobile applications that consume them.</p>
-          <p>I graduated from the University of Montreal with a B.S. degree in Computer Science in 2010, and have worked at <a href="/portfolio">various companies</a> since then.</p>
+          <p>I graduated from the University of Montreal with a B.S. degree in Computer Science in 2010, and have worked at <a href="/work-experience/">various companies</a> since then.</p>
         </div>
       </div>
       <div class="card">
@@ -32,9 +33,15 @@ title: About me - Mathieu Lagacé
             {% endfor %}
           </p>
           <p>
-            <span>Devops: </span>
+            <span>Other: </span>
             {% for skill in site.data.about.skills.devops %}
               <span class="warning label">{{ skill }}</span>
+            {% endfor %}
+          </p>
+          <p>
+            <span>Currently learning: </span>
+            {% for skill in site.data.about.skills.learning %}
+              <span class="{{ skill.class }} label">{{ skill.title }}</span>
             {% endfor %}
           </p>
         </div>
