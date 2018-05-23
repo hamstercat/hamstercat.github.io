@@ -5,9 +5,7 @@ defaults:
     values:
       layout: "default"
 sass:
-  load_paths:
-    - _sass/--foundation
-    - _sass
+  sass_dir: _sass/--foundation
 exclude:
   - README.md
   - CNAME
