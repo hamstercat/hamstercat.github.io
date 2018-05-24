@@ -7,6 +7,7 @@ experiences:
     - TypeScript
     - Angular
     - Webpack
+    - Bootstrap
   backendSkills:
     - node.js
     - express
@@ -21,6 +22,7 @@ experiences:
   frontendSkills:
     - WinForms
     - React
+    - Bootstrap
   backendSkills:
     - C# .NET
     - Web API
@@ -36,6 +38,7 @@ experiences:
     - AngularJS
     - Gulp
     - ASP.NET MVC
+    - Bootstrap
   backendSkills:
     - C# .NET
     - SQL Server
@@ -71,6 +74,7 @@ projects:
     - React
     - Typescript
     - Webpack
+    - Foundation
   backendSkills:
     - node.js
     - express

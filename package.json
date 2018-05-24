@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "postinstall": "node ./bin/postinstall.js",
-    "serve": "bundle exec jekyll serve --livereload"
+    "serve": "bundle exec jekyll serve --livereload",
+    "build": "bundle exec jekyll build --safe"
   },
   "dependencies": {
     "foundation-sites": "^6.4.4-rc1",

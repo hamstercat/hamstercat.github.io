@@ -22,9 +22,8 @@
         <div class="top-bar-right">
           <ul class="dropdown menu" data-dropdown-menu>
             {% assign currentUrl = page.url | split: '.' %}
-            {% assign currentUrl = currentUrl[0] | append: '/' %}
             {% for item in site.data.header.links %}
-              <li class="{% if item.url == currentUrl %}active{% endif %}">
+              <li class="{% if item.url == currentUrl[0] %}active{% endif %}">
                 <a href="{{ item.url }}">{{ item.title }}</a>
               </li>
             {% endfor %}

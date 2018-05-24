@@ -7,10 +7,12 @@ defaults:
 sass:
   sass_dir: _sass/--foundation
 exclude:
-  - README.md
+  - bin
   - CNAME
   - Gemfile
   - Gemfile.lock
   - node_modules
   - package.json
+  - README.md
   - vendor
+  - yarn.lock
