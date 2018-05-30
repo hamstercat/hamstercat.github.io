@@ -16,8 +16,9 @@ skills:
   devops:
     - Heroku
     - Git
-    - Docker
     - CI
   learning:
     - title: GraphQL
       class: alert
+    - title: Docker
+      class: warning

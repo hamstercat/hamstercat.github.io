@@ -7,8 +7,10 @@
   </head>
   <body>
     {% include_relative _layouts/header.html %}
-    <div class="content">
-      {{ content }}
+    <div id="wrap">
+      <div id="main">
+        {{ content }}
+      </div>
     </div>
     {% include_relative _layouts/footer.html %}
     {% include_relative _layouts/scripts.html %}
