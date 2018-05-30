@@ -8,8 +8,8 @@ experiences:
     - Angular
     - Webpack
   backendSkills:
-    - node.js
-    - express
+    - Node.js
+    - Express
   otherSkills:
     - Docker
   description: "<p>Led the front-end development of the City's new beta Portal written in Angular.</p>"
@@ -39,14 +39,14 @@ experiences:
   backendSkills:
     - C# .NET
     - SQL Server
-    - node.js
+    - Node.js
     - MongoDB
   otherSkills:
     - OAuth2
     - Social login
   description: "<p>Maintained an authentication API for different YP applications: yp.ca and its mobile apps, the Shopwise mobile apps, redflagdeals.com and its mobile apps and YP Dine mobile apps.</p>
   <p>Integrated the Facebook and Google social login schemes as well as traditional email/password credentials.</p>
-  <p>Led development of internal web applications in AngularJS/node.js, as well as mentoring junior team members.</p>"
+  <p>Led development of internal web applications in AngularJS/Node.js, as well as mentoring junior team members.</p>"
 
 - title: Morneau Shepell
   period: September 2010 - March 2014
@@ -72,8 +72,8 @@ projects:
     - Typescript
     - Webpack
   backendSkills:
-    - node.js
-    - express
+    - Node.js
+    - Express
     - PostgreSQL
   otherSkills:
     - Design

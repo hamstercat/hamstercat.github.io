@@ -7,8 +7,8 @@ skills:
     - Angular
     - Webpack
   backend: 
-    - node.js
-    - express
+    - Node.js
+    - Express
     - C# .NET
     - ASP.NET MVC
     - SQL Server
