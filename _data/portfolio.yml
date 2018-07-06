@@ -83,19 +83,18 @@ projects:
     - Design
   description: "<p>Web forms as a service platform, allows customers to include forms on their website without having to manage anything. Includes a visual editor to customize the forms. Launching officially later this year.</p>"
 
-- title: The Attack Fam
-  period: June 2017 - March 2018
+- title: Cyber Garbage Fam
+  period: June 2017 - Now
   mobileLinks:
     ios: https://itunes.apple.com/us/app/the-attack-fam/id1327651968?ls=1&mt=8
     android: https://play.google.com/store/apps/details?id=com.hamstercat.theattack
-  image: /assets/img/portfolio/the-attack-fam.png
+  image: /assets/img/portfolio/cyber-garbage-fam.png
   frontendSkills:
     - React Native
     - Typescript
   otherSkills:
     - Design
-  description: "<p>Developed an iOS and Android app to follow a media company based on Twitch.</p>
-  <p><i>As of March 2018, the channel has disbanded so no content is available anymore.</i></p>"
+  description: "<p>Developed an iOS and Android app to follow a media company based on Twitch.</p>"
 
 - title: LeagueTV
   period: December 2015 - March 2016
