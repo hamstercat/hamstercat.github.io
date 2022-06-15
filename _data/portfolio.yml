@@ -1,6 +1,28 @@
 experiences:
+- title: Shopify
+  period: November 2019 — Now
+  link: https://shopify.com/
+  image: /assets/img/portfolio/shopify.png
+  frontendSkills:
+    - React
+    - TypeScript
+    - Webpack
+    - GraphQL
+  backendSkills:
+    - Ruby
+    - Nginx
+  otherSkills:
+    - Technical leadership
+    - Mentorship
+  description: "<p>Shopify is a global company helping merchants start and scale their retail business of all sizes. My role as a Staff Web Developer working on our Core product is to drive our technical direction, mentor developers, and of course ship code that improves our merchants' lives.</p>
+<p>Implemented the UI for merchants to associate 3D models/videos to a product, boosting the sales of merchants using that new feature.</p>
+<p>Help onboard, mentor and level-up developers within my team and elsewhere in the company on front-end development, architecture and technical leadership.</p>
+<p>Scaled 2 of my teams from a few developers to a full product team, including both front-end and back-end developers.</p>
+<p>Identify technical debt and ways to improve the codebase, improving the team's velocity while reducing bugs leading to disruptions for our merchants.</p>
+<p>Drive architecture and alignment between engineers, UX designers and product managers, both within my team and with senior leader stakeholders, for a new project that enables product teams within Shopify.</p>"
+
 - title: City of Montréal
-  period: May 2017 - Now
+  period: May 2017 - November 2019
   link: https://beta.montreal.ca/en
   image: /assets/img/portfolio/montreal.png
   frontendSkills:
@@ -67,8 +89,7 @@ experiences:
 
 projects:
 - title: Hydra Forms
-  period: September 2017 - Now
-  linkPlaceholder: Coming soon
+  period: September 2017 - November 2019
   image: /assets/img/portfolio/hydra-forms.png
   frontendSkills:
     - React
@@ -81,7 +102,7 @@ projects:
     - PostgreSQL
   otherSkills:
     - Design
-  description: "<p>Web forms as a service platform, allows customers to include forms on their website without having to manage anything. Includes a visual editor to customize the forms. Launching officially later this year.</p>"
+  description: "<p>Web forms as a service platform, allows customers to include forms on their website without having to manage anything. Includes a visual editor to customize the forms.</p>"
 
 - title: Cyber Garbage Fam
   period: June 2017 - Now

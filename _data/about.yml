@@ -1,24 +1,28 @@
 skills:
   frontend:
-    - JavaScript/ES6
-    - TypeScript
     - React
     - React Native
+    - TypeScript
+    - JavaScript
     - Angular
     - Webpack
+    - Accessibility
   backend: 
     - Node.js
     - Express
+    - GraphQL
     - C# .NET
     - ASP.NET MVC
+    - PostgreSQL
     - SQL Server
-    - MongoDB
   devops:
-    - Heroku
-    - Git
+    - Docker
     - CI
   learning:
-    - title: GraphQL
-      class: alert
-    - title: Docker
+    - title: Remix
+      class: success
+    - title: Solid
+      class: success
+    - title: Cloudflare Pages/Workers
       class: warning
+    
