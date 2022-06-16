@@ -1,6 +1,6 @@
 experiences:
 - title: Shopify
-  period: November 2019 — Now
+  period: November 2018 — Now
   link: https://shopify.com/
   image: /assets/img/portfolio/shopify.png
   frontendSkills:
@@ -22,7 +22,7 @@ experiences:
 <p>Drive architecture and alignment between engineers, UX designers and product managers, both within my team and with senior leader stakeholders, for a new project that enables product teams within Shopify.</p>"
 
 - title: City of Montréal
-  period: May 2017 - November 2019
+  period: May 2017 - November 2018
   link: https://beta.montreal.ca/en
   image: /assets/img/portfolio/montreal.png
   frontendSkills:
@@ -89,7 +89,7 @@ experiences:
 
 projects:
 - title: Hydra Forms
-  period: September 2017 - November 2019
+  period: September 2017 - November 2018
   image: /assets/img/portfolio/hydra-forms.png
   frontendSkills:
     - React
